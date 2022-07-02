@@ -1,9 +1,10 @@
 <?php
+    require("config.php");
     //Database information
-    $host = "localhost"; //Link of your database
-    $useDB = "hardsys"; //Name of your database
-    $user = "root"; //Username of your database account
-    $password = "root"; //Password of your database account
+    $host = $hostname; //Link of your database
+    $useDB = $database; //Name of your database
+    $user = $db_user; //Username of your database account
+    $password = $db_password; //Password of your database account
     try{
         $db = new PDO("mysql:host=$host;dbname=$useDB", $user, $password); //the link
         $connect = true;

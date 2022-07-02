@@ -24,7 +24,7 @@
             <form method="get">
                 <div style="gap: 2%; margin-top: 2%;">
                     <input type="text" name="table">
-                    <input style="width: 140px; height: 60px;" type="submit" value="Ok">
+                    <input class="btn-request" style="width: 140px; height: 60px;" type="submit" value="Ok">
                 </div>
             </form>
 

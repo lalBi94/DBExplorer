@@ -37,3 +37,17 @@ main {
     color: white;
     padding: 10px;
 }
+
+.btn-request{ /*Boutton*/
+    background-color: #0a1b2f;
+    color: white;
+    border: none;
+    border-radius: 2.3px;
+    padding: 11px;
+    font-size: 1vw;
+}
+
+.btn-request:hover{ /*Boutton*/
+    transform: scale(1.08);
+    transition: 0.3s;
+}
